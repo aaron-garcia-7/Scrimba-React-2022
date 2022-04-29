@@ -1,0 +1,93 @@
+.infoSection{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.profile {
+    width: 12rem;
+    height: 12rem;
+    border-radius: 50%;
+    border: 2px solid #F3BF99;
+    object-fit: cover;
+    margin-bottom: 1rem;
+}
+
+.nameArea {
+    text-align: center;
+    margin-bottom: 1.2rem;
+}
+
+.nameArea h1 {
+    font-size: 2rem;
+}
+.nameArea h2 {
+    font-size: 1rem;
+    font-weight: 300;
+    color: #F3BF99;
+    /* color: salmon; */
+    margin-bottom: 0.4rem;
+}
+.nameArea a {
+    font-size: 0.8rem;
+    font-weight: 300;
+    text-decoration: none;
+}
+.nameArea a:hover {
+    opacity: 0.7;
+}
+
+.cta {
+    /* border: 1px solid grey; */
+    width: 18.6rem;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.cta a {
+    width: 8.4rem;
+    height: 2.4rem;
+    border: none;
+    border-radius: 0.4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+    transition: 0.4s ease;
+}
+
+.cta a:hover {
+    opacity: 0.6;
+}
+
+.cta a img {
+    width: 1.2rem;
+    height: 1.2rem;
+}
+
+.cta a p {
+    font-size: 1rem;
+    margin-left: 0.4rem;
+}
+
+.btn1 {
+    background: #fff;
+}
+
+.btn1 p {
+    color: #000;
+}
+
+.btn2 {
+    background: #5093E2;
+}
+
+@media screen and (max-width: 568px){
+    .profile{
+        width: 10rem;
+        height: 10rem;
+    }
+}

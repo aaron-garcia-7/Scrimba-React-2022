@@ -1,0 +1,13 @@
+.aboutSection {
+    width: 18.6rem;
+    margin: 0 auto 1.2rem auto;
+}
+
+.aboutSection h3 {
+    margin-bottom: 0.6rem;
+}
+
+.aboutSection p {
+    font-size: 0.8rem;
+    font-weight: 300;
+}
