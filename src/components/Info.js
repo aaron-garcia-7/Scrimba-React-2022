@@ -14,7 +14,7 @@ const Info = (props) => {
       <img src={profile} alt="" className="profile" />
       <div className="nameArea">
         <h1 style={{ fontWeight: 600 }}>{props.name}</h1>
-        <h2>FullStack Developer</h2>
+        <h2>Frontend Developer</h2>
         <a href="#">aaronegarcia.com</a>
       </div>
       <div className="cta">
