@@ -1,0 +1,13 @@
+.skillsSection {
+    width: 18.6rem;
+    margin: auto;
+}
+
+.skillsSection h3 {
+    margin-bottom: 0.6rem;
+}
+
+.skillsSection p {
+    font-size: 0.8rem;
+    font-weight: 300;
+}
