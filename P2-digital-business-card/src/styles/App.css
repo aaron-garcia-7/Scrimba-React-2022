@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.App {
+    background: #23252C;
+    height: 100%;
+    padding: 1rem 0rem;
+}
+
+.card {
+    position: relative;
+    background: #1A1B21;
+    width: 60%;
+    max-width: 32rem;
+    min-width: 24rem;;
+    height: 96vh;
+    min-height: 40rem;
+    margin: 0rem auto 1rem auto;
+    border-radius: 1rem;
+}
+
+@media screen and (max-width: 568px) {
+    .App {
+        background: #23252C;
+        height: 100%;
+        padding: 1rem 0rem;
+    }
+    
+    .card{
+        height: 84vh;
+    }
+}
