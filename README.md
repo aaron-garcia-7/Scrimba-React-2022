@@ -1,10 +1,9 @@
 # Scrimba-React-2022
 Welcome! 
 
-This is my directory for the Scrimba React Course projects taught by Bob Ziroll.
+This is my directory for the Scrimba React Course projects.
 
-To view this course visit: https://scrimba.com/learn/learnreact
+Click below to view this course.
 
-or
-
-you can also view the entire course here: https://www.youtube.com/watch?v=bMknfKXIFA8&t=440s
+  Scrimba.com: https://scrimba.com/learn/learnreact
+  Youtube.com: https://www.youtube.com/watch?v=bMknfKXIFA8&t=440s
