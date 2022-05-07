@@ -1,0 +1,135 @@
+.gallery{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+    padding: 2rem;
+    width: 48rem;
+    height: 36rem;
+    margin: auto;
+}
+
+.galleryImg{
+    width: 7.2rem;
+}
+
+.imgGal1 {
+    grid-column-start: 1;
+    grid-row-start: 2;
+    transform: translate(0, 12px);
+}
+.imgGal2 {
+    grid-column-start: 2;
+    grid-row-start: 1;
+    transform: translate(0, 48px);
+}
+.imgGal3 {
+    grid-column-start: 2;
+    grid-row-start: 3;
+    transform: translate(0, -12px);
+}
+.imgGal4 {
+    grid-column-start: 3;
+    grid-row-start: 2;
+}
+.imgGal5 {
+    grid-column-start: 3;
+    grid-row-start: 4;
+    transform: translate(0, -12px);
+}
+.imgGal6 {
+    grid-column-start: 4;
+    grid-row-start: 1;
+    transform: translate(0, 24px);
+}
+.imgGal7 {
+    grid-column-start: 4;
+    grid-row-start: 3;
+    transform: translate(0, 12px);
+}
+.imgGal8 {
+    grid-column-start: 5;
+    grid-row-start: 2;
+    transform: translate(0, -12px);
+}
+.imgGal9 {
+    grid-column-start: 5;
+    grid-row-start: 4;
+    transform: translate(0, -24px);
+}
+
+.textContainer{
+    padding-left: 2rem;
+    /* border: 1px solid grey; */
+    transform: translate(0, -30%);
+}
+.heroTitle{
+    font-size: 3.6rem;
+    font-weight: 600;
+}
+
+.heroSubText {
+    font-size: 1.6rem;
+    font-weight: 200;
+    width: 32rem;
+}
+
+@media screen and (max-width: 768px){
+    .gallery{
+        padding: 1rem;
+        width: 31rem;
+        height: 26rem;
+        margin-bottom: 2rem;
+    }
+    .galleryImg{
+        width: 5.4rem;
+    }
+    .heroTitle{
+        font-size: 2.8rem;
+    }
+    .heroSubText{
+        width: 28rem;
+    }
+}
+
+@media screen and (max-width: 484px){
+    .gallery{
+        padding: 0.2rem;
+        width: 20rem;
+        height: 24rem;
+        margin-bottom: 2rem;
+    }
+    .galleryImg{
+        width: 4rem;
+    }
+    .imgGal1 {
+        transform: translate(-24px, 12px);
+    }
+    .imgGal2 {
+        transform: translate(-12px, 56px);
+    }
+    .imgGal3 {
+        transform: translate(-12px, -24px);
+    }
+    .imgGal5 {
+        transform: translate(0, -48px);
+    }
+    .imgGal6 {
+        transform: translate(12px, 36px);
+    }
+    .imgGal7 {
+        transform: translate(12px, 0px);
+    }
+    .imgGal8 {
+        transform: translate(24px, -12px);
+    }
+    .imgGal9 {
+        transform: translate(24px, -56px);
+    }
+    .heroTitle{
+        font-size: 2rem;
+    }
+    .heroSubText{
+        font-size: 1.2rem;
+        width: 20rem;
+    }
+}

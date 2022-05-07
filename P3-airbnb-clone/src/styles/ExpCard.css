@@ -1,0 +1,66 @@
+
+.expCard {
+    width: 18rem;
+    margin-right: 2rem;
+    position: relative;
+}
+
+.message {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    border-radius: 0.4rem;
+    padding: 0.4rem 1rem;
+    background: #f4f4f4;
+    text-transform: uppercase;
+}
+
+.cardImg{
+    width: 16rem;
+}
+
+.stats{
+    display: flex;
+    padding: 0.4rem 0;
+}
+
+.stats p {
+    font-size: 1.1rem;
+}
+
+.stats img {
+    margin-right: 0.4rem;
+    width: 1.2rem;
+}
+
+.greyText{
+    color: #9d9d9d;
+}
+
+.expText{
+    font-size: 1.1rem;
+    font-weight: 300;
+}
+
+h4 {
+    font-size: 1.1rem;
+    font-weight: 300;
+}
+
+.bold{
+    font-weight: 600;
+}
+
+@media screen and (max-width: 484px) {
+    .expCard{
+        width: 16rem;
+    }
+    .message{
+        font-size: 0.8rem;
+    }
+    .stats p,
+    .expText,
+    h4{
+        font-size: 0.9rem;
+    }
+}
